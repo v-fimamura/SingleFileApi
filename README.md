@@ -70,6 +70,3 @@ Invoke-RestMethod -Method Post -Uri http://localhost:5000/echo -Body "Hello from
 Notes
 - The example is intentionally tiny and stateless — it does not persist data.
 - The file includes a file-scoped SDK directive (e.g. `#:sdk Microsoft.NET.Sdk.Web`) and top-level statements. If your environment doesn't support running a single C# source file directly, add a `.csproj` as noted above.
-
-
-If you'd like, I can add a companion `SingleFileApi.csproj` and launch/launchSettings to make running and debugging in IDEs easier.
